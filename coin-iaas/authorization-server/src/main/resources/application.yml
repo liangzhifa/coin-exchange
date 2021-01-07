@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: authorization-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ali-server:8848
+  datasource:
+    url: jdbc:mysql://ali-server:3306/coin-exchange?useSSL=false&serverTimezone=GMT%28
+    username: root
+    password: zhifa123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  redis:
+#    host: redis-server
+#    port: 6380
+#    password: Ltd3411??

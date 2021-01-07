@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coin-admin" />
+        <module name="coin-member" />
+        <module name="coin-statistics" />
+        <module name="match-engine" />
+        <module name="coin-chan" />
+        <module name="gateway-server" />
+        <module name="exchange-engine" />
+        <module name="coin-finance" />
+        <module name="coin-common" />
+        <module name="coin-task" />
+        <module name="authorization-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="-parameters" />
+      <module name="coin-admin" options="-parameters" />
+      <module name="coin-chan" options="-parameters" />
+      <module name="coin-common" options="-parameters" />
+      <module name="coin-finance" options="-parameters" />
+      <module name="coin-iaas" options="-parameters" />
+      <module name="coin-member" options="-parameters" />
+      <module name="coin-statistics" options="-parameters" />
+      <module name="coin-task" options="-parameters" />
+      <module name="exchange-engine" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="match-engine" options="-parameters" />
+    </option>
+  </component>
+</project>

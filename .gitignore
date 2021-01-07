@@ -1,0 +1,3 @@
+# Project exclude paths
+/coin-iaas/authorization-server/target/
+/coin-iaas/gateway-server/target/
